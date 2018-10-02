@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Special Button -->
+    <style name="SpecialButton">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:background">@color/colorBtnSpecialBG</item>
+        <item name="android:textColor">@color/colorBtnSpecialTEXT</item>
+    </style>
+
+
+    <!-- Operator Button -->
+    <style name="OperatorButton">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:background">@color/colorBtnOperatorBG</item>
+        <item name="android:textColor">@color/colorBtnOperatorTEXT</item>
+    </style>
+
+
+    <!-- Number Button -->
+    <style name="NumberButton">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:background">@color/colorBtnNumberBG</item>
+        <item name="android:textColor">@color/colorBtnNumberTEXT</item>
+    </style>
+
+</resources>
